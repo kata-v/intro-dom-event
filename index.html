@@ -1,36 +1,36 @@
 <script type="text/javascript" src="js/scripts.js"></script>
 
-<body onresize="changeBackgroundColour()">
-	<table id="score">
-		<tr class="row">
-			<td class="cell heading">Subject</td>
-			<td class="cell heading">Test Result</td>
-			<td>Action Button</td>
-		</tr>
-		<tr class="row">
-			<td class="cell text">Maths</td>
-			<td id="grade" class="cell number">100%</td>
-			<td>
-				<button onclick="deceaseValue">Decrease</button>
-				<button>Increase</button>
-			</td>
-		</tr>
-	</table>
+<body onresize="changeBackgroundColor()">
+  <table id="score">
+    <tr class="row">
+      <td class="cell heading">Subject</td>
+      <td class="cell heading">Test Result</td>
+      <td>Action Button</td>
+    </tr>
+    <tr class="row">
+      <td class="cell text">Maths</td>
+      <td id="grade" class="cell number">100%</td>
+      <td>
+        <button onclick="decreaseValue()">Decrease</button>
+        <button onclick="increaseValue()">Increase</button>
+      </td>
+    </tr>
+  </table>
 
-	<table>
-		<tr class="row">
-			<td class="cell heading">Student Name</td>
-			<td class="cell heading">Age</td>
-			<td>Action Button</td>
-		</tr>
-		<tr class="row">
-			<td class="cell text">Andy</td>
-			<td class="cell number">25</td>
-			<td>
-				<button onclick="changeColor()">Change Color</button>
-			</td>
-		</tr>
-	</table>
+  <table>
+    <tr class="row">
+      <td class="cell heading">Student Name</td>
+      <td class="cell heading">Age</td>
+      <td>Action Button</td>
+    </tr>
+    <tr id="coloredRow" class="row">
+      <td class="cell text">Andy</td>
+      <td class="cell number">25</td>
+      <td>
+        <button onclick="changeColor()">Change Color</button>
+      </td>
+    </tr>
+  </table>
 
-	<script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
 </body>
